@@ -28,10 +28,10 @@ body {
 .discription {
     font-style: normal;
     font-family: "PT Sans";
-    height: 500px;
+    padding: 0 10px;
     line-height: 50px;
     display: column;
-    color: #0000008c;
+    color: #000000cc;
     font-size: 25px;
     text-align: left;
 }
@@ -44,4 +44,44 @@ body {
     padding: 0 30px;
     margin-bottom: 7px;
     margin-top: 50px;
+}
+
+@media (max-width: 925px) {
+}
+@media (max-width: 617px) {
+    .nav__list {
+        display: flex;
+        margin-top: 40px;
+    }
+    .nav__link {
+        font-size: 20px;
+    }
+    .discription {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 308px) {
+    .header {
+        position: relative;
+        height: 250px;
+        min-width: 307px;
+    }
+    .nav__list {
+        text-align: center;
+        display: grid;
+        list-style-type: none;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    .order-product__img {
+        display: none;
+    }
+    .discription {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    body {
+        height: 800px;
+    }
 }
