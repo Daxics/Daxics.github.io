@@ -191,4 +191,31 @@
         margin-top: 10px;
         padding-left: 0;
     }
+    .product-main-page {
+        margin-top: 20px;
+    }
+    .product-main-page__img img {
+        max-width: 270px;
+        max-height: 629px;
+        padding-left: 0;
+        object-fit: cover;
+    }
+    .product-main-page__img {
+        padding-left: 0;
+    }
+    .product-main-page__info {
+        height: 500px;
+        display: grid;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    .bottom__description {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .bottom__description-text {
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
